@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Pagina gatitos principal</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div>
+      <nav>
+        <ul class="ulMenu">
+          <li><a href="page1.html" class="liPage1">Pagina 1</a></li>
+          <li><a href="page2.html" class="liPage2">pagina 2</a></li>
+          <li><a href="page3.html" class="liPage3">pagina 3</a></li>
+        </ul>
+      </nav>
+    </div>
+    <h1>Pagina principal gatitos</h1>
+    <div>
+      <h2>Contactanos</h2>
+      <fieldset>
+        <legend>Formulario contacto</legend>
+        <form>
+          <label>Nombre</label> <input type="text" id="txtNombre"/><br/><br/>
+          <label>Telefono</label> <input type="number" id="txtTelefono"/><br/><br/>
+          <label>Correo</label> <input type="text" id="txtEmail"><br/><br/>
+          <label>Comentarios</label> <textarea></textarea><br/><br/>
+          <button type="submit" id="btnEnviar">Enviar</button>
+        </form>
+      </fieldset>
+    </div>
+    <div>
+      <h3>Impresion</h3>
+      <fieldset>
+        <legend>Datos de muestra</legend>
+        <p id="pTexto"></p>
+      </fieldset>
+    </div>
+    <div>
+      <hr/>
+      <video src="media/Spinning-Cat.mp4"controls="" width="200" height="150"></video>
+    </div>
+    <script src="js/app.js" type="module"></script>
+  </body>
+</html>

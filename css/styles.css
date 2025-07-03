@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.ulMenu{
+  width: 100vw;
+  height: 30px;
+  padding: 0;
+  display: flex;
+  gap: 4vw;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+.ulMenu li{
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 5px;
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+}
+.ulMenu li .liPage1:nth-child(1){
+  background-color: cyan;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 120px;
+}
+.liPage2:nth-child(1){
+  background-color: gray;
+  text-align: center;
+  text-decoration: none;
+  color:black;
+  padding: 120px;
+}
