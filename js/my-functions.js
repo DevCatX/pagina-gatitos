@@ -1,3 +1,4 @@
+// Estas son funciones creadas por mi mismo 
 export function capturaHtml(elemento){
   return document.getElementById(elemento);
 }
